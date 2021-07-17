@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: #F05454;
+    font-size: 18px;
+}
+
+a {
+    color: #6c7ae0;
+}
+
+tr,
+th,
+td {
+    border: solid 1px #DDDDDD;
+}
+
+tr,
+td {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+/*background color for all the ODD background rows  */
+tr:nth-child(odd) {
+    background: #222831;
+    color: #DDDDDD;
+}
+
+/*background color for all the EVEN background rows  */
+tr:nth-child(even) {
+    background: #30475E;
+    color: antiquewhite;
+}
+
+thead tr {
+    background: #30475E !important;
+}
+
+.cmd-search {
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    font-weight: 900;
+    border: thin #6c7ae0 1px;
+    border-radius: 25px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #F05454;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #30475E;
+}
+
+.font-size {
+    text-align: center;
+}
+
+.button {
+    background-color: #6c7ae0;
+    border: none;
+    color: #DDDDDD;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1044px) {
+    .cmd-search {
+        width: 95%;
+        padding: 15px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 900;
+        border: thin #6c7ae0 1px;
+        border-radius: 0px;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+}

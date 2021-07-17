@@ -18,4 +18,4 @@ Since these commands work within the context of Command Prompt, you have to open
 - Responsive to all screens
 - 3 font sizes
 
-Browse the project directly on https://nick390.github.io/CMD/cmd.html
+Browse the project directly on https://nick390.github.io/CMD/index.html

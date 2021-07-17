@@ -1,0 +1,2324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Full List of Command Prompt Commands</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Get to know every Command Prompt Commands for Windows">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+
+</head>
+
+<body>
+    <header>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <input type="search" placeholder="Search for a cmommand using name or description"
+            class="cmd-search search-input" data-table="cmd-list">
+        <hr>
+        <div class="font-size">
+            <span>Change font size</span>
+            <input type="button" value="Normal" class="button"
+                onclick="document.getElementById('text').style.fontSize = '18px'">
+            <input type="button" value="Medium" class="button"
+                onclick="document.getElementById('text').style.fontSize = '23px'">
+            <input type="button" value="Large" class="button"
+                onclick="document.getElementById('text').style.fontSize = '28px'">
+        </div>
+        <hr><br>
+    </header>
+    <table class="cmd-list" id="text">
+        <thead>
+            <tr>
+                <td>No.</td>
+                <td>Command</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Append</td>
+                <td>The append command can be used by programs to open files in another directory as if they were
+                    located in
+                    the current directory. The append command is available in MS-DOS as well as in all 32-bit versions
+                    of
+                    Windows. The append command is not available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Arp</td>
+                <td>The arp command is used to display or change entries in the ARP cache. The arp command is available
+                    in
+                    all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Assoc</td>
+                <td>The assoc command is used to display or change the file type associated with a particular file
+                    extension. The assoc command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>At</td>
+                <td>The at command is used to schedule commands and other programs to run at a specific date and time.
+                    The
+                    at command is available in Windows 7, Windows Vista, and Windows XP. Beginning in Windows 8, command
+                    line task scheduling should instead be completed with the schtasks command.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Atmadm</td>
+                <td>The atmadm command is used to display information related to asynchronous transfer mode (ATM)
+                    connections on the system. The atmadm command is available in Windows XP. Support for ATM was
+                    removed
+                    beginning in Windows Vista, making the atmadm command unnecessary.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Attrib</td>
+                <td>The attrib command is used to change the attributes of a single file or a directory. The attrib
+                    command
+                    is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Auditpol</td>
+                <td>The auditpol command is used to display or change audit policies. The auditpol command is available
+                    in
+                    Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bcdboot</td>
+                <td>The bcdboot command is used to copy boot files to the system partition and to create a new system
+                    BCD
+                    store. The bcdboot command is available in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Bcdedit</td>
+                <td>The bcdedit command is used to view or make changes to Boot Configuration Data. The bcdedit command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista. The bcdedit command replaced the
+                    bootcfg command beginning in Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Bdehdcfg</td>
+                <td>The bdehdcfg command is used to prepare a hard drive for BitLocker Drive Encryption. The bdehdcfg
+                    command is available in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Bitsadmin</td>
+                <td>The bitsadmin command is used to create, manage, and monitor download and upload jobs. The bitsadmin
+                    command is available in Windows 8, Windows 7, and Windows Vista. While the bitsadmin command is
+                    available in both Windows 8 and Windows 7, it is being phased out. The BITS PowerShell cmdlets
+                    should be
+                    used instead.</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Bootcfg</td>
+                <td>The bootcfg command is used to build, modify, or view the contents of the boot.ini file, a hidden
+                    file
+                    that is used to identify in what folder, on which partition, and on which hard drive Windows is
+                    located.
+                    The bootcfg command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                    The
+                    bootcfg command was replaced by the bcdedit command beginning in Windows Vista. Bootcfg is still
+                    available in Windows 10, 8, 7, and Vista, but it serves no real value since boot.ini is not used in
+                    these operating systems.</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Bootsect</td>
+                <td>The bootsect command is used to configure the master boot code to one compatible with BOOTMGR (Vista
+                    and
+                    later) or NTLDR (XP and earlier). The bootsect command is available in Windows 10 and Windows 8. The
+                    bootsect command is also available in Windows 7 and Windows Vista but only from the Command Prompt
+                    available in System Recovery Options.</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Break</td>
+                <td>The break command sets or clears extended CTRL+C checking on DOS systems. The break command is
+                    available
+                    in all versions of Windows, as well as in MS-DOS. The break command is available in Windows XP and
+                    later
+                    versions of Windows to provide compatibility with MS-DOS files but it has no effect in Windows
+                    itself.
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Cacls</td>
+                <td>The cacls command is used to display or change access control lists of files. The cacls command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP. The cacls command is
+                    being
+                    phased out in favor of the icacls command, which should be used instead in all versions of Windows
+                    after
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Call</td>
+                <td>The call command is used to run a script or batch program from within another script or batch
+                    program.
+                    The call command is available in all versions of Windows, as well as in MS-DOS. The call command has
+                    no
+                    effect outside of a script or batch file. In other words, running the call command at the Command
+                    Prompt
+                    or MS-DOS prompt will do nothing.</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Cd</td>
+                <td>The cd command is the shorthand version of the chdir command. The cd command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Certreq</td>
+                <td>The certreq command is used to perform various certification authority (CA) certificate functions.
+                    The
+                    certreq command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Certutil</td>
+                <td>The certutil command is used to dump and display certification authority (CA) configuration
+                    information
+                    in addition to other CA functions. The certutil command is available in Windows 10, Windows 8,
+                    Windows
+                    7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Change</td>
+                <td>The change command changes various terminal server settings like install modes, COM port mappings,
+                    and
+                    logons. The change command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Chcp</td>
+                <td>The chcp command displays or configures the active code page number. The chcp command is available
+                    in
+                    all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Chdir</td>
+                <td>The chdir command is used to display the drive letter and folder that you are currently in. Chdir
+                    can
+                    also be used to change the drive and/or directory that you want to work in. The chdir command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Checknetisolation</td>
+                <td>The checknetisolation command is used to test apps that require network capabilities. The
+                    checknetisolation command is available in Windows 10 and Windows 8.</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Chglogon</td>
+                <td>The chglogon command enables, disables, or drains terminal server session logins. The chglogon
+                    command
+                    is available in Windows 10, Windows 8, Windows 7, and Windows Vista. Executing the chglogon command
+                    is
+                    the same as executing change logon.</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Chgport</td>
+                <td>The chgport command can be used to display or change COM port mappings for DOS compatibility. The
+                    chgport command is available in Windows 10, Windows 8, Windows 7, and Windows Vista. Executing the
+                    chgport command is the same as executing change port.</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Chgusr</td>
+                <td>The chgusr command is used to change the install mode for the terminal server. The chgusr command is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista. Executing the chgusr command is
+                    the
+                    same as executing change user.</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Chkdsk</td>
+                <td>The chkdsk command, often referred to as check disk, is used to identify and correct certain hard
+                    drive
+                    errors. The chkdsk command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Chkntfs</td>
+                <td>The chkntfs command is used to configure or display the checking of the disk drive during the
+                    Windows
+                    boot process. The chkntfs command is available in Windows 10, Windows 8, Windows 7, Windows Vista,
+                    and
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Choice</td>
+                <td>The choice command is used within a script or batch program to provide a list of choices and return
+                    the
+                    value of that choice to the program. The choice command is available in MS-DOS and all versions of
+                    Windows except Windows XP. Use the set command with the /p switch in place of the choice command in
+                    batch files and scripts that you plan to use in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Cipher</td>
+                <td>The cipher command shows or changes the encryption status of files and folders on NTFS partitions.
+                    The
+                    cipher command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Clip</td>
+                <td>The clip command is used to redirect the output from any command to the clipboard in Windows. The
+                    clip
+                    command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>Cls</td>
+                <td>The cls command clears the screen of all previously entered commands and other text. The cls command
+                    is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>Cmd</td>
+                <td>The cmd command starts a new instance of the cmd.exe command interpreter. The cmd command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>Cmdkey</td>
+                <td>The cmdkey command is used to show, create, and remove stored user names and passwords. The cmdkey
+                    command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>Cmstp</td>
+                <td>The cmstp command installs or uninstalls a Connection Manager service profile. The cmstp command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>Color</td>
+                <td>The color command is used to change the colors of the text and background within the Command Prompt
+                    window. The color command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows
+                    XP.</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>Command</td>
+                <td>The command command starts a new instance of the command.com command interpreter. The command
+                    command is
+                    available in MS-DOS as well as in all 32-bit versions of Windows. The command command is not
+                    available
+                    in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>Comp</td>
+                <td>The comp command is used to compare the contents of two files or sets of files. The comp command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>Compact</td>
+                <td>The compact command is used to show or change the compression state of files and directories on NTFS
+                    partitions. The compact command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>Convert</td>
+                <td>The convert command is used to convert FAT or FAT32 formatted volumes to the NTFS format. The
+                    convert
+                    command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>Copy</td>
+                <td>The copy command does simply that — it copies one or more files from one location to another. The
+                    copy
+                    command is available in all versions of Windows, as well as in MS-DOS. The xcopy command is
+                    considered
+                    to be a more "powerful" version of the copy command.</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>Cscript</td>
+                <td>The cscript command is used to execute scripts via Microsoft Script Host. The cscript command is
+                    available in all versions of Windows. The cscript command is most popularly used to manage printers
+                    from
+                    the command line using scripts like prncnfg.vbs, prndrvr.vbs, prnmngr.vbs, and others.</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>Ctty</td>
+                <td>The ctty command is used to change the default input and output devices for the system. The ctty
+                    command
+                    is available in Windows 98 and 95 as well as in MS-DOS. The functions provided by the ctty command
+                    were
+                    no longer necessary beginning in Windows XP because the command.com interpreter (MS-DOS) is no
+                    longer
+                    the default command line interpreter.</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>Date</td>
+                <td>The date command is used to show or change the current date. The date command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>Dblspace</td>
+                <td>The dblspace command is used to create or configure DoubleSpace compressed drives. The dblspace
+                    command
+                    is available in Windows 98 and 95, as well as in MS-DOS. DriveSpace, executed using the drvspace
+                    command, is an updated version of DoubleSpace. Windows began handling compression beginning in
+                    Windows
+                    XP.</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>Debug</td>
+                <td>The debug command starts Debug, a command line application used to test and edit programs. The debug
+                    command is available in MS-DOS as well as in all 32-bit versions of Windows. The debug command is
+                    not
+                    available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>Defrag</td>
+                <td>The defrag command is used to defragment a drive you specify. The defrag command is the command line
+                    version of Microsoft's Disk Defragmenter. The defrag command is available in all versions of
+                    Windows, as
+                    well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>Del</td>
+                <td>The del command is used to delete one or more files. The del command is available in all versions of
+                    Windows, as well as in MS-DOS. The del command is the same as the erase command.</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>Deltree</td>
+                <td>The deltree command is used to delete a directory and all the files and subdirectories within it.
+                    The
+                    deltree command is available in Windows 98 and 95, as well as in MS-DOS. Beginning in Windows XP, a
+                    folder and its files and subfolders can be removed using the /s function of the rmdir command.
+                    Deltree
+                    was no longer needed with this new rmdir ability so the command was removed.</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>Diantz</td>
+                <td>The diantz command is used to losslessly compress one or more files. The diantz command is sometimes
+                    called Cabinet Maker. The diantz command is available in Windows 7, Windows Vista, and Windows XP.
+                    The
+                    diantz command is the same as the makecab command.</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>Dir</td>
+                <td>The dir command is used to display a list of files and folders contained inside the folder that you
+                    are
+                    currently working in. The dir command also displays other important information like the hard
+                    drive's
+                    serial number, the total number of files listed, their combined size, the total amount of free space
+                    left on the drive, and more. The dir command is available in all versions of Windows, as well as in
+                    MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>Diskcomp</td>
+                <td>The diskcomp command is used to compare the contents of two floppy disks. The diskcomp command is
+                    available in all versions of Windows, as well as in MS-DOS, with the exclusion of Windows 10.</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>Diskcopy</td>
+                <td>The diskcopy command is used to copy the entire contents of one floppy disk to another. The diskcopy
+                    command is available in all versions of Windows, as well as in MS-DOS, with the exclusion of Windows
+                    10.
+                </td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>Diskpart</td>
+                <td>The diskpart command is used to create, manage, and delete hard drive partitions. The diskpart
+                    command
+                    is available in Windows 8, Windows 7, Windows Vista, and Windows XP. The diskpart command replaced
+                    the
+                    fdisk command beginning in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>Diskperf</td>
+                <td>The diskperf command is used to manage disk performance counters remotely. The diskperf command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>Diskraid</td>
+                <td>The diskraid command starts the DiskRAID tool which is used to manage and configure RAID arrays. The
+                    diskraid command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>Dism</td>
+                <td>The dism command starts the Deployment Image Servicing and Management tool (DISM). The DISM tool is
+                    used
+                    to manage features in Windows images. The dism command is available in Windows 10, Windows 8, and
+                    Windows 7.</td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>Dispdiag</td>
+                <td>The dispdiag command is used to output a log of information about the display system. The dispdiag
+                    command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>59</td>
+                <td>Djoin</td>
+                <td>The djoin command is used to create a new computer account in a domain. The djoin command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>Doskey</td>
+                <td>The doskey command is used to edit command lines, create macros, and recall previously entered
+                    commands.
+                    The doskey command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td>Dosshell</td>
+                <td>The dosshell command starts DOS Shell, a graphical file management tool for MS-DOS. The dosshell
+                    command
+                    is available in Windows 95 (in MS-DOS mode) and also in MS-DOS version 6.0 and later MS-DOS versions
+                    that were upgraded from previous versions that contained the dosshell command. A graphical file
+                    manager,
+                    Windows Explorer, became an integrated part of the operating system beginning in Windows 95.</td>
+            </tr>
+            <tr>
+                <td>62</td>
+                <td>Dosx</td>
+                <td>The dosx command is used to start DOS Protected Mode Interface (DPMI), a special mode designed to
+                    give
+                    MS-DOS applications access to more than the normally allowed 640 KB. The dosx command is available
+                    in
+                    Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP. The dosx command is not available
+                    in
+                    64-bit versions of Windows. The dosx command and DPMI is only available in Windows to support older
+                    MS-DOS programs.</td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>Driverquery</td>
+                <td>The driverquery command is used to show a list of all installed drivers. The driverquery command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>Drvspace</td>
+                <td>The drvspace command is used to create or configure DriveSpace compressed drives. The drvspace
+                    command
+                    is available in Windows 98 and 95, as well as in MS-DOS. DriveSpace is an updated version of
+                    DoubleSpace, executed using the dblspace command. Windows began handling compression beginning in
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>65</td>
+                <td>Echo</td>
+                <td>The echo command is used to show messages, most commonly from within script or batch files. The echo
+                    command can also be used to turn the echoing feature on or off. The echo command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>Edit</td>
+                <td>The edit command starts the MS-DOS Editor tool which is used to create and modify text files. The
+                    edit
+                    command is available in MS-DOS as well as in all 32-bit versions of Windows. The edit command is not
+                    available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>Edlin</td>
+                <td>The edlin command starts the Edlin tool which is used to create and modify text files from the
+                    command
+                    line. The edlin command is available in all 32-bit versions of Windows but is not available in
+                    64-bit
+                    versions of Windows. In MS-DOS, the edlin command is only available up to MS-DOS 5.0, so unless your
+                    later version of MS-DOS was upgraded from 5.0 or prior, you won't see the edlin command.</td>
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>Emm386</td>
+                <td>The emm386 command is used to give MS-DOS access to more than 640 KB of memory. The emm386 command
+                    is
+                    available in Windows 98 and 95, as well as in MS-DOS. Windows itself has access to extended and
+                    expanded
+                    memory beginning in Windows 95.</td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>Endlocal</td>
+                <td>The endlocal command is used to end the localization of environment changes inside a batch or script
+                    file. The endlocal command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows
+                    XP.</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>Erase</td>
+                <td>The erase command is used to delete one or more files. The erase command is available in all
+                    versions of
+                    Windows, as well as in MS-DOS. The erase command is the same as the del command.</td>
+            </tr>
+            <tr>
+                <td>71</td>
+                <td>Esentutl</td>
+                <td>The esentutl command is used to manage Extensible Storage Engine databases. The esentutl command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>Eventcreate</td>
+                <td>The eventcreate command is used to create a custom event in an event log. The eventcreate command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>Eventtriggers</td>
+                <td>The eventtriggers command is used to configure and display event triggers. The eventtriggers command
+                    is
+                    available in Windows XP. Beginning in Windows Vista, event triggers are created using the Attach
+                    Task To
+                    This Event feature in Event Viewer, making the eventtriggers command unnecessary.</td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>Exe2bin</td>
+                <td>The exe2bin command is used to convert a file of the EXE file type ( executable file) to a binary
+                    file.
+                    The exe2bin command is available in 32-bit versions of Windows 10, Windows 8, Windows 7, Windows
+                    Vista,
+                    and Windows XP. The exe2bin command is not available in any 64-bit version of Windows.</td>
+            </tr>
+            <tr>
+                <td>75</td>
+                <td>Exit</td>
+                <td>The exit command is used to end the cmd.exe (Windows) or command.com (MS-DOS) session that you're
+                    currently working in. The exit command is available in all versions of Windows, as well as in
+                    MS-DOS.
+                </td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>Expand</td>
+                <td>The expand command is used to extract the files and folders contained in Microsoft Cabinet ( CAB)
+                    files.
+                    The expand command is available in MS-DOS as well as in all versions of Windows. The expand command
+                    is
+                    not available in the 64-bit version of Windows XP.</td>
+            </tr>
+            <tr>
+                <td>77</td>
+                <td>Extrac32</td>
+                <td>The extrac32 command is used to extract the files and folders contained in Microsoft Cabinet (CAB)
+                    files. The extrac32 command is available in all versions of Windows. The extrac32 command is
+                    actually a
+                    CAB extraction program for use by Internet Explorer but can be used to extract any Microsoft Cabinet
+                    file. Use the expand command instead of the extrac32 command if possible.</td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>Extract</td>
+                <td>The extract command is used to extract the files and folders contained in Microsoft Cabinet (CAB)
+                    files.
+                    The extract command is available in Windows 98 and 95. The extract command was replaced by the
+                    expand
+                    command beginning in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>Fasthelp</td>
+                <td>The fasthelp command provides more detailed information on any of the other MS-DOS commands. The
+                    fasthelp command is only available in MS-DOS. The help command replaced the fasthelp command
+                    beginning
+                    in Windows 95.</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>Fastopen</td>
+                <td>The fastopen command is used to add a program's hard drive location to a special list stored in
+                    memory,
+                    potentially improving the program's launch time by removing the need for MS-DOS to locate the
+                    application on the drive. The fastopen command is available in MS-DOS as well as in all 32-bit
+                    versions
+                    of Windows. The fastopen command is not available in 64-bit versions of Windows. Fastopen is only
+                    available in Windows 10, Windows 8, 7, Vista, and XP to support older MS-DOS files.</td>
+            </tr>
+            <tr>
+                <td>81</td>
+                <td>Fc</td>
+                <td>The fc command is used to compare two individual or sets of files and then show the differences
+                    between
+                    them. The fc command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>Fdisk</td>
+                <td>The fdisk command is used to create, manage, and delete hard drive partitions. The fdisk command is
+                    available in Windows 98 and 95, as well as in MS-DOS. The fdisk command was replaced by the diskpart
+                    command beginning in Windows XP. Partition management is also available from Disk Management in
+                    Windows
+                    10, 8, 7, Vista, and XP.</td>
+            </tr>
+            <tr>
+                <td>83</td>
+                <td>Find</td>
+                <td>The find command is used to search for a specified text string in one or more files. The find
+                    command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>84</td>
+                <td>Findstr</td>
+                <td>The findstr command is used to find text string patterns in one or more files. The findstr command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>85</td>
+                <td>Finger</td>
+                <td>The finger command is used to return information about one or more users on a remote computer that's
+                    running the Finger service. The finger command is available in Windows 10, Windows 8, Windows 7,
+                    Windows
+                    Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>86</td>
+                <td>Fltmc</td>
+                <td>The fltmc command is used to load, unload, list, and otherwise manage Filter drivers. The fltmc
+                    command
+                    is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>87</td>
+                <td>Fondue</td>
+                <td>The fondue command, short for Features on Demand User Experience Tool, is used to install any of the
+                    several optional Windows features from the command line. The fondue command is available in Windows
+                    8.
+                    Optional Windows features can also be installed from the Programs and Features applet in Control
+                    Panel.
+                </td>
+            </tr>
+            <tr>
+                <td>88</td>
+                <td>For</td>
+                <td>The for command is used to run a specified command for each file in a set of files. The for command
+                    is
+                    most often used within a batch or script file. The for command is available in all versions of
+                    Windows,
+                    as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>89</td>
+                <td>Forcedos</td>
+                <td>The forcedos command is used to start the specified program in the MS-DOS subsystem. The forcedos
+                    command is only available in 32-bit versions of Windows XP. The forcedos command is only used for
+                    MS-DOS
+                    programs that are not recognized as such by Windows XP.</td>
+            </tr>
+            <tr>
+                <td>90</td>
+                <td>Forfiles</td>
+                <td>The forfiles command selects one or more files to execute a specified command on. The forfiles
+                    command
+                    is most often used within a batch or script file. The forfiles command is available in Windows 10,
+                    Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>91</td>
+                <td>Format</td>
+                <td>The format command is used to format a drive in the file system that you specify. The format command
+                    is
+                    available in all versions of Windows, as well as in MS-DOS. Drive formatting is also available from
+                    Disk
+                    Management in Windows 10, 8, 7, Vista, and XP.</td>
+            </tr>
+            <tr>
+                <td>92</td>
+                <td>Fsutil</td>
+                <td>The fsutil command is used to perform various FAT and NTFS file system tasks like managing reparse
+                    points and sparse files, dismounting a volume, and extending a volume. The fsutil command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>93</td>
+                <td>Ftp</td>
+                <td>The ftp command can be used to transfer files to and from another computer. The remote computer must
+                    be
+                    operating as an FTP server. The ftp command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>94</td>
+                <td>Ftype</td>
+                <td>The ftype command is used to define a default program to open a specified file type. The ftype
+                    command
+                    is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>95</td>
+                <td>Getmac</td>
+                <td>The getmac command is used to display the media access control (MAC) address of all the network
+                    controllers on a system. The getmac command is available in Windows 10, Windows 8, Windows 7,
+                    Windows
+                    Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>96</td>
+                <td>Goto</td>
+                <td>The goto command is used in a batch or script file to direct the command process to a labeled line
+                    in
+                    the script. The goto command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>97</td>
+                <td>Gpresult</td>
+                <td>The gpresult command is used to display Group Policy settings. The gpresult command is available in
+                    Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Gpupdate</td>
+                <td>The gpupdate command is used to update Group Policy settings. The gpupdate command is available in
+                    Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>99</td>
+                <td>Graftabl</td>
+                <td>The graftabl command is used to enable the ability of Windows to display an extended character set
+                    in
+                    graphics mode. The graftabl command is available in all versions of Windows and in MS-DOS up to
+                    version
+                    5.0. The graftabl command is not available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>Graphics</td>
+                <td>The graphics command is used to load a program that can print graphics. The graphics command is
+                    available in MS-DOS as well as in all 32-bit versions of Windows. The graphics command is not
+                    available
+                    in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Help</td>
+                <td>The help command provides more detailed information on any of the other Command Prompt or MS-DOS
+                    commands. The help command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Hostname</td>
+                <td>The hostname command displays the name of the current host. The hostname command is available in
+                    Windows
+                    10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Hwrcomp</td>
+                <td>The hwrcomp command is used to compile custom dictionaries for handwriting recognition. The hwrcomp
+                    command is available in Windows 8 and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Hwrreg</td>
+                <td>The hwrreg command is used to install a previously compiled custom dictionary for handwriting
+                    recognition. The hwrreg command is available in Windows 8 and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Icacls</td>
+                <td>The icacls command is used to display or change access control lists of files. The icacls command is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista. The icacls command is an updated
+                    version of the cacls command.</td>
+            </tr>
+            <tr>
+                <td>106</td>
+                <td>If</td>
+                <td>The if command is used to perform conditional functions in a batch file. The if command is available
+                    in
+                    all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td>Interlnk</td>
+                <td>The interlnk command is used to connect two computers via a serial or parallel connection to share
+                    files
+                    and printers. The interlnk command is only available in MS-DOS. The ability to directly connect two
+                    computers is handled by the networking functions in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>108</td>
+                <td>Intersvr</td>
+                <td>The intersvr command is used to start the Interlnk server and to copy Interlnk files from one
+                    computer
+                    to another. The intersvr command is only available in MS-DOS. The ability to directly connect two
+                    computers is handled by the networking functions in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>109</td>
+                <td>Ipconfig</td>
+                <td>The ipconfig command is used to display detailed IP information for each network adapter utilizing
+                    TCP/IP. The ipconfig command can also be used to release and renew IP addresses on systems
+                    configured to
+                    receive them via a DHCP server. The ipconfig command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>110</td>
+                <td>Ipxroute</td>
+                <td>The ipxroute command is used to display and change information about IPX routing tables. The
+                    ipxroute
+                    command is available in Windows XP. Microsoft removed their built-in NetWare client beginning in
+                    Windows
+                    Vista, removing the associated ipxroute command as well.</td>
+            </tr>
+            <tr>
+                <td>111</td>
+                <td>Irftp</td>
+                <td>The irftp command is used to transmit files over an infrared link. The irftp command is available in
+                    Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>112</td>
+                <td>Iscsicli</td>
+                <td>The iscsicli command starts the Microsoft iSCSI Initiator, used to manage iSCSI. The iscsicli
+                    command is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>113</td>
+                <td>Kb16</td>
+                <td>The kb16 command is used to support MS-DOS files that need to configure a keyboard for a specific
+                    language. The kb16 command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows
+                    XP. The kb16 command is not available in 64-bit versions of Windows. The kb16 command replaced the
+                    keyb
+                    command beginning in Windows XP but only exists to support older MS-DOS files.</td>
+            </tr>
+            <tr>
+                <td>114</td>
+                <td>Keyb</td>
+                <td>The keyb command is used to configure a keyboard for a specific language. The keyb command is
+                    available
+                    in Windows 98 and 95, as well as in MS-DOS. See the kb16 command for an equivalent command in later
+                    versions of Windows. Keyboard language settings are handled by the Region and Language or Regional
+                    and
+                    Language Options (depending on the version of Windows) Control Panel applets in Windows beginning in
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>115</td>
+                <td>Klist</td>
+                <td>The klist command is used to list Kerberos service tickets. The klist command can also be used to
+                    purge
+                    Kerberos tickets. The klist command is available in Windows 10, Windows 8 and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>116</td>
+                <td>Ksetup</td>
+                <td>The ksetup command is used to configure connections to a Kerberos server. The ksetup command is
+                    available in Windows 10, Windows 8 and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>117</td>
+                <td>Ktmutil</td>
+                <td>The ktmutil command starts the Kernel Transaction Manager utility. The ktmutil command is available
+                    in
+                    Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>118</td>
+                <td>Label</td>
+                <td>The label command is used to manage the volume label of a disk. The label command is available in
+                    all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>119</td>
+                <td>Lh</td>
+                <td>The lh command is the shorthand version of the loadhigh command. The lh command is available in
+                    Windows
+                    98 and 95, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>120</td>
+                <td>Licensingdiag</td>
+                <td>The licensingdiag command is a tool used to generate a text-based log and other data files that
+                    contain
+                    product activation and other Windows licensing information. The licensingdiag command is available
+                    in
+                    Windows 10 and Windows 8.</td>
+            </tr>
+            <tr>
+                <td>121</td>
+                <td>Loadfix</td>
+                <td>The loadfix command is used to load the specified program in the first 64K of memory and then runs
+                    the
+                    program. The loadfix command is available in MS-DOS as well as in all 32-bit versions of Windows.
+                    The
+                    loadfix command is not available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>122</td>
+                <td>Loadhigh</td>
+                <td>The loadhigh command is used to load a program into high memory and is usually used from within the
+                    autoexec.bat file. The loadhigh command is available in Windows 98 and 95, as well as in MS-DOS.
+                    Memory
+                    usage is handled automatically beginning in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>Lock</td>
+                <td>The lock command is used to lock a drive, enabling direct disk access for a program. The lock
+                    command is
+                    only available in Windows 98 and 95. Drive locking is no longer available as of Windows XP.</td>
+            </tr>
+            <tr>
+                <td>124</td>
+                <td>Lodctr</td>
+                <td>The lodctr command is used to update registry values related to performance counters. The lodctr
+                    command
+                    is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>125</td>
+                <td>Logman</td>
+                <td>The logman command is used to create and manage Event Trace Session and Performance logs. The logman
+                    command also supports many functions of Performance Monitor. The logman command is available in
+                    Windows
+                    10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>126</td>
+                <td>Logoff</td>
+                <td>The logoff command is used to terminate a session. The logoff command is available in Windows 10,
+                    Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>127</td>
+                <td>Lpq</td>
+                <td>The lpq command displays the status of a print queue on a computer running Line Printer Daemon
+                    (LPD).
+                    The lpq command is available in all versions of Windows. The lpq command is not available by default
+                    in
+                    Windows 10, 8, 7, or Vista, but can be enabled by turning on the LPD Print Service and LPR Port
+                    Monitor
+                    features from Programs and Features in Control Panel.</td>
+            </tr>
+            <tr>
+                <td>128</td>
+                <td>Lpr</td>
+                <td>The lpr command is used to send a file to a computer running Line Printer Daemon (LPD). The lpr
+                    command
+                    is available in all versions of Windows. The lpr command is not available by default in Windows 10,
+                    8,
+                    7, or Vista, but can be enabled by turning on the LPD Print Service and LPR Port Monitor features
+                    from
+                    Programs and Features in Control Panel.</td>
+            </tr>
+            <tr>
+                <td>129</td>
+                <td>Makecab</td>
+                <td>The makecab command is used to losslessly compress one or more files. The makecab command is
+                    sometimes
+                    called Cabinet Maker. The makecab command is available in Windows 10, Windows 8, Windows 7, Windows
+                    Vista, and Windows XP. The makecab command is the same as the diantz command, a command that was
+                    removed
+                    after Windows 7.</td>
+            </tr>
+            <tr>
+                <td>130</td>
+                <td>Manage-bde</td>
+                <td>The manage-bde command is used to configure BitLocker Drive Encryption from the command line. The
+                    manage-bde command is available in Windows 10, Windows 8, and Windows 7. A script by the name of
+                    manage-bde.wsf exists in Windows Vista and can be used with the cscript command to perform BitLocker
+                    tasks from the command line in that operating system.</td>
+            </tr>
+            <tr>
+                <td>131</td>
+                <td>Md</td>
+                <td>The md command is the shorthand version of the mkdir command. The md command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>132</td>
+                <td>Mem</td>
+                <td>The mem command shows information about used and free memory areas and programs that are currently
+                    loaded into memory in the MS-DOS subsystem. The mem command is available in MS-DOS as well as in all
+                    32-bit versions of Windows. The mem command is not available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>133</td>
+                <td>Memmaker</td>
+                <td>The memmaker command is used to start MemMaker, a memory optimization tool. The memaker command is
+                    available in Windows 98 and 95, as well as in MS-DOS. Memory usage is automatically optimized
+                    beginning
+                    in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>134</td>
+                <td>Mkdir</td>
+                <td>The mkdir command is used to create a new folder. The mkdir command is available in all versions of
+                    Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>135</td>
+                <td>Mklink</td>
+                <td>The mklink command is used to create a symbolic link. The mklink command is available in Windows 10,
+                    Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>136</td>
+                <td>Mode</td>
+                <td>The mode command is used to configure system devices, most often COM and LPT ports. The mode command
+                    is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>137</td>
+                <td>Mofcomp</td>
+                <td>The mofcomp command properly displays the data within a Managed Object Format (MOF) file. The
+                    mofcomp
+                    command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>138</td>
+                <td>More</td>
+                <td>The more command is used to display the information contained in a text file. The more command can
+                    also
+                    be used to paginate the results of any other Command Prompt or MS-DOS command. The more command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>139</td>
+                <td>Mount</td>
+                <td>The mount command is used to mount Network File System (NFS) network shares. The mount command is
+                    available in Windows 7 and Windows Vista. The mount command is not available by default in Windows
+                    Vista
+                    or Windows 7 but can be enabled by turning on the Services for NFS Windows feature from Programs and
+                    Features in Control Panel. The mount command is not available in Windows 10 or 8 because Service for
+                    UNIX (SFU) was discontinued.</td>
+            </tr>
+            <tr>
+                <td>140</td>
+                <td>Mountvol</td>
+                <td>The mountvol command is used to display, create, or remove volume mount points. The mountvol command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>141</td>
+                <td>Move</td>
+                <td>The move command is used to move one or files from one folder to another. The move command is also
+                    used
+                    to rename directories. The move command is available in all versions of Windows, as well as in
+                    MS-DOS.
+                </td>
+            </tr>
+            <tr>
+                <td>142</td>
+                <td>Mrinfo</td>
+                <td>The mrinfo command is used to provide information about a router's interfaces and neighbors. The
+                    mrinfo
+                    command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>143</td>
+                <td>Msav</td>
+                <td>The msav command starts Microsoft Antivirus. The msav command is only available in MS-DOS. Microsoft
+                    Antivirus was designed for MS-DOS and Windows 3.x only. Microsoft provides an optional virus
+                    protection
+                    suite called Microsoft Security Essentials for Windows XP and later operating systems, and third
+                    party
+                    antivirus tools are available for all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>144</td>
+                <td>Msbackup</td>
+                <td>The msbackup command starts Microsoft Backup, a tool used to back up and restore one or more files.
+                    The
+                    msbackup command is only available in MS-DOS. The msbackup command was replaced with Microsoft
+                    Backup
+                    beginning in Windows 95 and then Backup and Restore in later versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>145</td>
+                <td>Mscdex</td>
+                <td>The mscdex command is used to provide CD-ROM access to MS-DOS. The mscdex command is available in
+                    Windows 98 and 95, as well as in MS-DOS. Windows provides access to CD-ROM drives for the MS-DOS
+                    subsystem beginning in Windows XP, so the mscdex command is unnecessary in this and later operating
+                    systems.</td>
+            </tr>
+            <tr>
+                <td>146</td>
+                <td>Msd</td>
+                <td>The msd command starts Microsoft Diagnostics, a tool used to display information about your
+                    computer.
+                    The msd command is only available in MS-DOS. The msd command was replaced with System Information
+                    beginning in Windows 95.</td>
+            </tr>
+            <tr>
+                <td>147</td>
+                <td>Msg</td>
+                <td>The msg command is used to send a message to a user. The msg command is available in Windows 10,
+                    Windows
+                    8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>148</td>
+                <td>Msiexec</td>
+                <td>The msiexec command is used to start Windows Installer, a tool used to install and configure
+                    software.
+                    The msiexec command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                </td>
+            </tr>
+            <tr>
+                <td>149</td>
+                <td>Muiunattend</td>
+                <td>The muiunattend command starts the Multilanguage User Interface unattended setup process. The
+                    muiunattend command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>150</td>
+                <td>Nbtstat</td>
+                <td>The nbtstat command is used to show TCP/IP information and other statistical information about a
+                    remote
+                    computer. The nbtstat command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>151</td>
+                <td>Net</td>
+                <td>The net command is used to display, configure, and correct a wide variety of network settings. The
+                    net
+                    command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>152</td>
+                <td>Net1</td>
+                <td>The net1 command is used to display, configure, and correct a wide variety of network settings. The
+                    net1
+                    command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP. The net
+                    command
+                    should be used instead of the net1 command. The net1 command was made available in Windows NT and
+                    Windows 2000 as a temporary fix for a Y2K issue that the net command had, which was corrected before
+                    the
+                    release of Windows XP. The net1 command remains in later versions of Windows only for compatibility
+                    with
+                    older programs and scripts that utilized the command.</td>
+            </tr>
+            <tr>
+                <td>153</td>
+                <td>Netcfg</td>
+                <td>The netcfg command is used to install the Windows Preinstallation Environment (WinPE), a lightweight
+                    version of Windows used to deploy workstations. The netcfg command is available in Windows 10,
+                    Windows
+                    8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>154</td>
+                <td>Netsh</td>
+                <td>The netsh command is used to start Network Shell, a command-line utility used to manage the network
+                    configuration of the local, or a remote, computer. The netsh command is available in Windows 10,
+                    Windows
+                    8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>155</td>
+                <td>Netstat</td>
+                <td>The netstat command is most commonly used to display all open network connections and listening
+                    ports.
+                    The netstat command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>156</td>
+                <td>Nfsadmin</td>
+                <td>The nfsadmin command is used to manage Server for NFS or Client for NFS from the command line. The
+                    nfsadmin command is available in Windows 7 and Windows Vista. The nfsadmin command is not available
+                    by
+                    default in Windows Vista or Windows 7 but can be enabled by turning on the Services for NFS Windows
+                    feature from Programs and Features in Control Panel. The nfsadmin command is not available in
+                    Windows 10
+                    or 8 because Service for UNIX (SFU) was discontinued.</td>
+            </tr>
+            <tr>
+                <td>157</td>
+                <td>Nlsfunc</td>
+                <td>The nlsfunc command is used to load information specific to a particular country or region. The
+                    nlsfunc
+                    command is available in MS-DOS as well as in all 32-bit versions of Windows. The nlsfunc command is
+                    not
+                    available in 64-bit versions of Windows. Nlsfunc is only available in Windows 10, 8, 7, Vista, and
+                    XP to
+                    support older MS-DOS files.</td>
+            </tr>
+            <tr>
+                <td>158</td>
+                <td>Nltest</td>
+                <td>The nltest command is used to test secure channels between Windows computers in a domain and between
+                    domain controllers that are trusting other domains. The nltest command is available in Windows 10,
+                    Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>159</td>
+                <td>Nslookup</td>
+                <td>The nslookup is most commonly used to display the hostname of an entered IP address. The nslookup
+                    command queries your configured DNS server to discover the IP address. The nslookup command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>160</td>
+                <td>Ntbackup</td>
+                <td>The ntbackup command is used to perform various backup functions from the Command Prompt or from
+                    within
+                    a batch or script file. The ntbackup command is available in Windows XP. The ntbackup command was
+                    replaced with the wbadmin beginning in Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>161</td>
+                <td>Ntsd</td>
+                <td>The ntsd command is used to perform certain command line debugging tasks. The ntsd command is
+                    available
+                    in Windows XP. The ntsd command was removed beginning in Windows Vista due to the addition of dump
+                    file
+                    support in Task Manager.</td>
+            </tr>
+            <tr>
+                <td>162</td>
+                <td>Ocsetup</td>
+                <td>The ocsetup command starts the Windows Optional Component Setup tool, used to install additional
+                    Windows
+                    features. The ocsetup command is available in Windows 8, Windows 7, and Windows Vista. Beginning in
+                    Windows 8, Microsoft is depreciating the ocsetup command in favor of the dism command.</td>
+            </tr>
+            <tr>
+                <td>163</td>
+                <td>Openfiles</td>
+                <td>The openfiles command is used to display and disconnect open files and folders on a system. The
+                    openfiles command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                </td>
+            </tr>
+            <tr>
+                <td>164</td>
+                <td>Path</td>
+                <td>The path command is used to display or set a specific path available to executable files. The path
+                    command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>165</td>
+                <td>Pathping</td>
+                <td>The pathping command functions much like the tracert command but will also report information about
+                    network latency and loss at each hop. The pathping command is available in Windows 10, Windows 8,
+                    Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>166</td>
+                <td>Pause</td>
+                <td>The pause command is used within a batch or script file to pause the processing of the file. When
+                    the
+                    pause command is used, a "Press any key to continue…" message displays in the command window. The
+                    pause
+                    command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>167</td>
+                <td>Pentnt</td>
+                <td>The pentnt command is used to detect floating point division errors in the Intel Pentium chip. The
+                    pentnt command is also used to enable floating point emulation and disable floating point hardware.
+                    The
+                    pentnt command is available in Windows XP. The pentnt command was removed beginning in Windows Vista
+                    due
+                    to the lack of Intel Pentium CPU use at the time of this operating system release.</td>
+            </tr>
+            <tr>
+                <td>168</td>
+                <td>Ping</td>
+                <td>The ping command sends an Internet Control Message Protocol (ICMP) Echo Request message to a
+                    specified
+                    remote computer to verify IP-level connectivity. The ping command is available in all versions of
+                    Windows.</td>
+            </tr>
+            <tr>
+                <td>169</td>
+                <td>Pkgmgr</td>
+                <td>The pkgmgr command is used to start the Windows Package Manager from the Command Prompt. Package
+                    Manager
+                    installs, uninstalls, configures, and updates features and packages for Windows. The pkgmgr command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>170</td>
+                <td>Pnpunattend</td>
+                <td>The pnpunattend command is used to automate the installation of hardware device drivers. The
+                    pnpunattend
+                    command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>171</td>
+                <td>Pnputil</td>
+                <td>The pnputil command is used to start the Microsoft PnP Utility, a tool used to install a Plug and
+                    Play
+                    device from the command line. The pnputil command is available in Windows 10, Windows 8, Windows 7,
+                    and
+                    Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>172</td>
+                <td>Popd</td>
+                <td>The popd command is used to change the current directory to the one most recently stored by the
+                    pushd
+                    command. The popd command is most often utilized from within a batch or script file. The popd
+                    command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>173</td>
+                <td>Power</td>
+                <td>The power command is used to reduce the power consumed by a computer by monitoring software and
+                    hardware
+                    devices. The power command is available in Windows 98 and 95, as well as in MS-DOS. The power
+                    command
+                    was replaced by operating system integrated power management functions beginning in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>174</td>
+                <td>Powercfg</td>
+                <td>The powercfg command is used to manage the Windows power management settings from the command line.
+                    The
+                    powercfg command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                </td>
+            </tr>
+            <tr>
+                <td>175</td>
+                <td>Print</td>
+                <td>The print command is used to print a specified text file to a specified printing device. The print
+                    command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>176</td>
+                <td>Prompt</td>
+                <td>The prompt command is used to customize the appearance of the prompt text in Command Prompt or
+                    MS-DOS.
+                    The prompt command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>177</td>
+                <td>Pushd</td>
+                <td>The pushd command is used to store a directory for use, most commonly from within a batch or script
+                    program. The pushd command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows
+                    XP.</td>
+            </tr>
+            <tr>
+                <td>178</td>
+                <td>Pwlauncher</td>
+                <td>The pwlauncher command is used to enable, disable, or show the status of your Windows To Go startup
+                    options. The pwlauncher command is available in Windows 10 and 8.</td>
+            </tr>
+            <tr>
+                <td>179</td>
+                <td>Qappsrv</td>
+                <td>The qappsrv command is used to display all Remote Desktop Session Host servers available on the
+                    network.
+                    The qappsrv command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                </td>
+            </tr>
+            <tr>
+                <td>180</td>
+                <td>Qbasic</td>
+                <td>The qbasic command starts QBasic, the MS-DOS based programming environment for the BASIC programming
+                    language. The qbasic command is available in Windows 98 and 95, as well as in MS-DOS. The qbasic
+                    command
+                    is not installed by default with Windows 98 or 95 but is available from the installation disc or
+                    disks.
+                </td>
+            </tr>
+            <tr>
+                <td>181</td>
+                <td>Qprocess</td>
+                <td>The qprocess command is used to display information about running processes. The qprocess command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>182</td>
+                <td>Query</td>
+                <td>The query command is used to display the status of a specified service. The query command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>183</td>
+                <td>Quser</td>
+                <td>The quser command is used to display information about users currently logged on to the system. The
+                    quser command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>184</td>
+                <td>Qwinsta</td>
+                <td>The qwinsta command is used to display information about open Remote Desktop Sessions. The qwinsta
+                    command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>185</td>
+                <td>Rasautou</td>
+                <td>The rasautou command is used to manage Remote Access Dialer AutoDial addresses. The rasautou command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>186</td>
+                <td>Rasdial</td>
+                <td>The rasdial command is used to start or end a network connection for a Microsoft client. The rasdial
+                    command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>187</td>
+                <td>Rcp</td>
+                <td>The rcp command is used to copy files between a Windows computer and a system running the rshd
+                    daemon.
+                    The rcp command is available in Windows 7, Windows Vista, and Windows XP. The rcp command is not
+                    available by default in Windows Vista or Windows 7 but can be enabled by turning on the Subsystem
+                    for
+                    UNIX-based Applications Windows feature from Programs and Features in Control Panel and then
+                    installing
+                    the Utilities and SDK for UNIX-based Applications available here for Windows Vista and here for
+                    Windows
+                    7. The rcp command is not available in Windows 10 or 8 because Service for UNIX (SFU) was
+                    discontinued.
+                </td>
+            </tr>
+            <tr>
+                <td>188</td>
+                <td>Rd</td>
+                <td>The rd command is the shorthand version of the rmdir command. The rd command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>189</td>
+                <td>Rdpsign</td>
+                <td>The rdpsign command is used to sign a Remote Desktop Protocol (RDP) file. The rdpsign command is
+                    available in Windows 7.</td>
+            </tr>
+            <tr>
+                <td>190</td>
+                <td>Reagentc</td>
+                <td>The reagentc command is used to configure the Windows Recovery Environment (RE). The reagentc
+                    command is
+                    available in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>191</td>
+                <td>Recimg</td>
+                <td>The recimg command is used to create a custom refresh image. The recimg command is available in
+                    Windows
+                    8.</td>
+            </tr>
+            <tr>
+                <td>192</td>
+                <td>Recover</td>
+                <td>The recover command is used to recover readable data from a bad or defective disk. The recover
+                    command
+                    is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>193</td>
+                <td>Reg</td>
+                <td>The reg command is used to manage the Windows Registry from the command line. The reg command can
+                    perform common registry functions like adding registry keys, exporting the registry, etc. The reg
+                    command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>194</td>
+                <td>Regini</td>
+                <td>The regini command is used to set or change registry permissions and registry values from the
+                    command
+                    line. The regini command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows
+                    XP.</td>
+            </tr>
+            <tr>
+                <td>195</td>
+                <td>Register-cimprovider</td>
+                <td>The register-cimprovider command is used to register a Common Information Model (CIM) Provider in
+                    Windows. The register-cimprovider command is available in Windows 10 and Windows 8.</td>
+            </tr>
+            <tr>
+                <td>196</td>
+                <td>Regsvr32</td>
+                <td>The regsvr32 command is used to register a DLL file as a command component in the Windows Registry.
+                    The
+                    regsvr32 command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                </td>
+            </tr>
+            <tr>
+                <td>197</td>
+                <td>Relog</td>
+                <td>The relog command is used to create new performance logs from data in existing performance logs. The
+                    relog command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>198</td>
+                <td>Rem</td>
+                <td>The rem command is used to record comments or remarks in a batch or script file. The rem command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>199</td>
+                <td>Ren</td>
+                <td>The ren command is the shorthand version of the rename command. The ren command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>200</td>
+                <td>Rename</td>
+                <td>The rename command is used to change the name of the individual file that you specify. The rename
+                    command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>Repair-bde</td>
+                <td>The repair-bde command is used to repair or decrypt a damaged drive that's been encrypted using
+                    BitLocker. The repair-bde command is available in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>202</td>
+                <td>Replace</td>
+                <td>The replace command is used to replace one or more files with one or more other files. The replace
+                    command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>203</td>
+                <td>Reset</td>
+                <td>The reset command, executed as reset session, is used to reset the session subsystem software and
+                    hardware to known initial values. The reset command is available in Windows 10, Windows 8, Windows
+                    7,
+                    Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>204</td>
+                <td>Restore</td>
+                <td>The restore command is used to restore files that were backed up using the backup command. The
+                    restore
+                    command is only available in MS-DOS. The backup command was only available up to MS-DOS 5.00 but the
+                    restore command was included by default with later versions of MS-DOS to provide a way to restore
+                    files
+                    that were backed up in previous versions of MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>205</td>
+                <td>Rexec</td>
+                <td>The rexec command is used to run commands on remote computers running the rexec daemon. The rexec
+                    command is available in Windows Vista and Windows XP. The rsh command is not available by default in
+                    Windows Vista but can be enabled by turning on the Subsystem for UNIX-based Applications Windows
+                    feature
+                    from Programs and Features in Control Panel and then installing the Utilities and SDK for UNIX-based
+                    Applications available here. The rexec command is not available in Windows 7 but can be executed in
+                    Windows XP via Windows XP Mode if need be.</td>
+            </tr>
+            <tr>
+                <td>206</td>
+                <td>Rmdir</td>
+                <td>The rmdir command is used to delete an existing or completely empty folder. The rmdir command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>207</td>
+                <td>Robocopy</td>
+                <td>The robocopy command is used to copy files and directories from one location to another. This
+                    command is
+                    also called Robust File Copy. The robocopy command is available in Windows 10, Windows 8, Windows 7,
+                    and
+                    Windows Vista. The robocopy command is superior to both the copy command and the xcopy command
+                    because
+                    robocopy supports many more options.</td>
+            </tr>
+            <tr>
+                <td>208</td>
+                <td>Route</td>
+                <td>The route command is used to manipulate network routing tables. The route command is available in
+                    all
+                    versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>209</td>
+                <td>Rpcinfo</td>
+                <td>The rpcinfo command makes a remote procedure call (RPC) to an RPC server and reports what it finds.
+                    The
+                    rpcinfo command is available in Windows 7 and Windows Vista. The rpcinfo command is not available by
+                    default in Windows Vista or Windows 7 but can be enabled by turning on the Services for NFS Windows
+                    feature from Programs and Features in Control Panel. The rpcinfo command is not available in Windows
+                    8
+                    because Service for UNIX (SFU) was discontinued.</td>
+            </tr>
+            <tr>
+                <td>210</td>
+                <td>Rpcping</td>
+                <td>The rpcping command is used to ping a server using RPC. The rpcping command is available in Windows
+                    10,
+                    Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>211</td>
+                <td>Rsh</td>
+                <td>The rsh command is used to run commands on remote computers running the rsh daemon. The rsh command
+                    is
+                    available in Windows 7, Windows Vista, and Windows XP. The rsh command is not available by default
+                    in
+                    Windows Vista or Windows 7 but can be enabled by turning on the Subsystem for UNIX-based
+                    Applications
+                    Windows feature from Programs and Features in Control Panel and then installing the Utilities and
+                    SDK
+                    for UNIX-based Applications available here for Windows Vista and here for Windows 7. The rsh command
+                    is
+                    not available in Windows 10 or 8 because Service for UNIX (SFU) was discontinued.</td>
+            </tr>
+            <tr>
+                <td>212</td>
+                <td>Rsm</td>
+                <td>The rsm command is used to manage media resources using Removable Storage. The rsm command is
+                    available
+                    in Windows Vista and Windows XP. The rsm command was optional in Windows Vista and then removed in
+                    Windows 7 due to Removable Storage Manager being removed from the operating system. Search for the
+                    rsm
+                    command in the C:\Windows\winsxs folder in Windows Vista if you're having trouble executing the
+                    command.
+                </td>
+            </tr>
+            <tr>
+                <td>213</td>
+                <td>Runas</td>
+                <td>The runas command is used to execute a program using another user's credentials. The runas command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>214</td>
+                <td>Rwinsta</td>
+                <td>The rwinsta command is the shorthand version of the reset session command. The rwinsta command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>215</td>
+                <td>Sc</td>
+                <td>The sc command is used to configure information about services. The sc command communicates with the
+                    Service Control Manager. The sc command is available in Windows 10, Windows 8, Windows 7, Windows
+                    Vista,
+                    and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>216</td>
+                <td>Scandisk</td>
+                <td>The scandisk command is used to start Microsoft ScanDisk, a disk repair program. The scandisk
+                    command is
+                    available in Windows 98 and 95, as well as in MS-DOS. The scandisk command was replaced by the
+                    chkdsk
+                    command beginning in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>217</td>
+                <td>Scanreg</td>
+                <td>The scanreg command starts Windows Registry Checker, a basic registry repair program and backup
+                    utility.
+                    The scanreg command is available in Windows 98 and Windows 95. The functions provided by the scanreg
+                    command were no longer necessary beginning in Windows XP due to changes in how the Windows Registry
+                    functions.</td>
+            </tr>
+            <tr>
+                <td>218</td>
+                <td>Schtasks</td>
+                <td>The schtasks command is used to schedule specified programs or commands to run at certain times. The
+                    schtasks command can be used to create, delete, query, change, run, and end scheduled tasks. The
+                    schtasks command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.​
+                </td>
+            </tr>
+            <tr>
+                <td>219</td>
+                <td>Sdbinst</td>
+                <td>The sdbinst command is used to deploy customized SDB database files. The sdbinst command is
+                    available in
+                    Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>220</td>
+                <td>Secedit</td>
+                <td>The secedit command is used to configure and analyze system security by comparing the current
+                    security
+                    configuration to a template. The secedit command is available in Windows 10, Windows 8, Windows 7,
+                    Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>221</td>
+                <td>Set</td>
+                <td>The set command is used to display, enable, or disable environment variables in MS-DOS or from the
+                    Command Prompt. The set command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>222</td>
+                <td>Setlocal</td>
+                <td>The setlocal command is used to start the localization of environment changes inside a batch or
+                    script
+                    file. The setlocal command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows
+                    XP.</td>
+            </tr>
+            <tr>
+                <td>223</td>
+                <td>Setspn</td>
+                <td>The setspn command is used to manage the Service Principal Names (SPN) for an Active Directory (AD)
+                    service account. The setspn command is available in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>224</td>
+                <td>Setver</td>
+                <td>The setver command is used to set the MS-DOS version number that MS-DOS reports to a program. The
+                    setver
+                    command is available in MS-DOS as well as in all 32-bit versions of Windows. The setver command is
+                    not
+                    available in 64-bit versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>225</td>
+                <td>Setx</td>
+                <td>The setx command is used to create or change environment variables in the user environment or the
+                    system
+                    environment. The setx command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.
+                </td>
+            </tr>
+            <tr>
+                <td>226</td>
+                <td>Sfc</td>
+                <td>The sfc command is used to verify and replace important Windows system files. The sfc command is
+                    also
+                    referred to as System File Checker or Windows Resource Checker, depending on the operating system.
+                    The
+                    sfc command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>227</td>
+                <td>Shadow</td>
+                <td>The shadow command is used to monitor another Remote Desktop Services session. The shadow command is
+                    available in Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>228</td>
+                <td>Share</td>
+                <td>The share command is used to install file locking and file sharing functions in MS-DOS. The share
+                    command is available in MS-DOS as well as in all 32-bit versions of Windows. The share command is
+                    not
+                    available in 64-bit versions of Windows. Share is only available in Windows 10, 8, 7, Vista, and XP
+                    to
+                    support older MS-DOS files.</td>
+            </tr>
+            <tr>
+                <td>229</td>
+                <td>Shift</td>
+                <td>The shift command is used to change the position of replaceable parameters in a batch or script
+                    file.
+                    The shift command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>230</td>
+                <td>Showmount</td>
+                <td>The showmount command is used to display information about NFS mounted file systems. The showmount
+                    command is available in Windows 7 and Windows Vista. The showmount command is not available by
+                    default
+                    in Windows Vista or Windows 7 but can be enabled by turning on the Services for NFS Windows feature
+                    from
+                    Programs and Features in Control Panel. The showmount command is not available in Windows 10 or 8
+                    because Service for UNIX (SFU) was discontinued.</td>
+            </tr>
+            <tr>
+                <td>231</td>
+                <td>Shutdown</td>
+                <td>The shutdown command can be used to shut down, restart, or log off the current system or a remote
+                    computer. The shutdown command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>232</td>
+                <td>Smartdrv</td>
+                <td>The smartdrv command installs and configures SMARTDrive, a disk caching utility for MS-DOS. The
+                    smartdrv
+                    command is available in Windows 98 and 95, as well as in MS-DOS. Caching is automatic beginning in
+                    Windows XP, making the smartdrv command unnecessary.</td>
+            </tr>
+            <tr>
+                <td>233</td>
+                <td>Sort</td>
+                <td>The sort command is used to read data from a specified input, sort that data, and return the results
+                    of
+                    that sort to the Command Prompt screen, a file, or another output device. The sort command is
+                    available
+                    in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>234</td>
+                <td>Start</td>
+                <td>The start command is used to open a new command line window to run a specified program or command.
+                    The
+                    start command can also be used to start an application without creating a new window. The start
+                    command
+                    is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>235</td>
+                <td>Subst</td>
+                <td>The subst command is used to associate a local path with a drive letter. The subst command is a lot
+                    like
+                    the net use command except a local path is used instead of a shared network path. The subst command
+                    is
+                    available in all versions of Windows, as well as in MS-DOS. The subst command replaced the assign
+                    command beginning with MS-DOS 6.0.</td>
+            </tr>
+            <tr>
+                <td>236</td>
+                <td>Sxstrace</td>
+                <td>The sxstrace command is used to start the WinSxs Tracing Utility, a programming diagnostic tool. The
+                    sxstrace command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>237</td>
+                <td>Sys</td>
+                <td>The sys command is used to copy the MS-DOS system files and command interpreter to a disk. The sys
+                    command is available in Windows 98 and 95, as well as in MS-DOS. The sys command is used most often
+                    to
+                    create a simple bootable disk or hard drive. The necessary system files for Windows are too large to
+                    fit
+                    on a disk, so the sys command was removed beginning in Windows XP.</td>
+            </tr>
+            <tr>
+                <td>238</td>
+                <td>Systeminfo</td>
+                <td>The systeminfo command is used to display basic Windows configuration information for the local or a
+                    remote computer. The systeminfo command is available in Windows 10, Windows 8, Windows 7, Windows
+                    Vista,
+                    and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>239</td>
+                <td>Takeown</td>
+                <td>The takedown command is used to regain access to a file that that an administrator was denied access
+                    to
+                    when reassigning ownership of the file. The takeown command is available in Windows 10, Windows 8,
+                    Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>240</td>
+                <td>Taskkill</td>
+                <td>The taskkill command is used to terminate a running task. The taskkill command is the command line
+                    equivalent of ending a process in Task Manager in Windows. The taskkill command is available in
+                    Windows
+                    10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>241</td>
+                <td>Tasklist</td>
+                <td>Displays a list of applications, services, and the Process ID (PID) currently running on either a
+                    local
+                    or a remote computer. The tasklist command is available in Windows 10, Windows 8, Windows 7, Windows
+                    Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>242</td>
+                <td>Tcmsetup</td>
+                <td>The tcmsetup command is used to set up or disable the Telephony Application Programming Interface
+                    (TAPI)
+                    client. The tcmsetup command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>243</td>
+                <td>Telnet</td>
+                <td>The telnet command is used to communicate with remote computers that use the Telnet protocol. The
+                    telnet
+                    command is available in all versions of Windows. The telnet command is not available by default in
+                    Windows 10, 8, 7, or Vista, but can be enabled by turning on the Telnet Client Windows feature from
+                    Programs and Features in Control Panel.</td>
+            </tr>
+            <tr>
+                <td>244</td>
+                <td>Tftp</td>
+                <td>The tftp command is used to transfer files to and from a remote computer that's running the Trivial
+                    File
+                    Transfer Protocol (TFTP) service or daemon. The tftp command is available in Windows 10, Windows 8,
+                    Windows 7, Windows Vista, and Windows XP. The tftp command is not available by default in Windows 8,
+                    7,
+                    or Vista, but can be enabled by turning on the TFTP Client Windows feature from Programs and
+                    Features in
+                    Control Panel.</td>
+            </tr>
+            <tr>
+                <td>245</td>
+                <td>Time</td>
+                <td>The time command is used to show or change the current time. The time command is available in all
+                    versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>246</td>
+                <td>Timeout</td>
+                <td>The timeout command is typically used in a batch or script file to provide a specified timeout value
+                    during a procedure. The timeout command can also be used to ignore keypresses. The timeout command
+                    is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>247</td>
+                <td>Title</td>
+                <td>The title command is used to set the Command Prompt window title. The title command is available in
+                    Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>248</td>
+                <td>Tlntadmn</td>
+                <td>The tlntadmn command is used to administer a local or remote computer running Telnet Server. The
+                    tlntadmn command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                    The
+                    tlntadmn command is not available by default in Windows 8, 7, or Vista, but can be enabled by
+                    turning on
+                    the Telnet Server Windows feature from Programs and Features in Control Panel.</td>
+            </tr>
+            <tr>
+                <td>249</td>
+                <td>Tpmvscmgr</td>
+                <td>The tpmvscmgr command is used to create and destroy TPM virtual smart cards. The tpmvscmgr command
+                    is
+                    available in Windows 8.</td>
+            </tr>
+            <tr>
+                <td>250</td>
+                <td>Tracerpt</td>
+                <td>The tracerpt command is used to process event trace logs or real-time data from instrumented event
+                    trace
+                    providers. The tracerpt command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and
+                    Windows XP.</td>
+            </tr>
+            <tr>
+                <td>251</td>
+                <td>Tracert</td>
+                <td>The tracert command sends Internet Control Message Protocol (ICMP) Echo Request messages to a
+                    specified
+                    remote computer with increasing Time to Live (TTL) field values and displays the IP address and
+                    hostname, if available, of the router interfaces between the source and destination. The tracert
+                    command
+                    is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>252</td>
+                <td>Tree</td>
+                <td>The tree command is used to graphically display the folder structure of a specified drive or path.
+                    The
+                    tree command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>253</td>
+                <td>Tscon</td>
+                <td>The tscon command is used to attach a user session to a Remote Desktop session. The tscon command is
+                    available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>254</td>
+                <td>Tsdiscon</td>
+                <td>The tsdiscon command is used to disconnect a Remote Desktop session. The tsdiscon command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>255</td>
+                <td>Tskill</td>
+                <td>The tskill command is used to end the specified process. The tskill command is available in Windows
+                    10,
+                    Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>256</td>
+                <td>Tsshutdn</td>
+                <td>The tsshutdn command is used to remotely shut down or restart a terminal server. The tsshutdn
+                    command is
+                    available in Windows XP. The ability to shut down a computer remotely is also available in the more
+                    powerful shutdown command, so tsshutdn was removed beginning in Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>257</td>
+                <td>Type</td>
+                <td>The type command is used to display the information contained in a text file. The type command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>258</td>
+                <td>Typeperf</td>
+                <td>The typerperf command displays performance data in the Command Prompt window or writes the data to
+                    specified log file. The typeperf command is available in Windows 10, Windows 8, Windows 7, Windows
+                    Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>259</td>
+                <td>Tzutil</td>
+                <td>The tzutil command is used to display or configure the current system's time zone. The tzutil
+                    command
+                    can also be used to enable or disable Daylight Saving Time adjustments. The tzutil command is
+                    available
+                    in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>260</td>
+                <td>Umount</td>
+                <td>The umount command is used to remove Network File System (NFS) mounted network shares. The umount
+                    command is available in Windows 7 and Windows Vista. The umount command is not available by default
+                    in
+                    Windows Vista or Windows 7 but can be enabled by turning on the Services for NFS Windows feature
+                    from
+                    Programs and Features in Control Panel. The umount command is not available in Windows 10 or 8
+                    because
+                    Service for UNIX (SFU) was discontinued.</td>
+            </tr>
+            <tr>
+                <td>261</td>
+                <td>Undelete</td>
+                <td>The undelete command is used to undo a deletion performed with the MS-DOS delete command. The
+                    undelete
+                    command is only available in MS-DOS. The undelete command was removed beginning in Windows 95 due to
+                    the
+                    availability of the Recycle Bin in Windows. Additionally, free file recovery programs are available
+                    from
+                    third-party software makers.</td>
+            </tr>
+            <tr>
+                <td>262</td>
+                <td>Unformat</td>
+                <td>The unformat command is used to undo the formatting on a drive performed by the MS-DOS format
+                    command.
+                    The unformat command is only available in MS-DOS. The unformat command was removed beginning in
+                    Windows
+                    95 due to file system changes.</td>
+            </tr>
+            <tr>
+                <td>263</td>
+                <td>Unlock</td>
+                <td>The unlock command is used to unlock a drive, disabling direct disk access for a program. The unlock
+                    command is only available in Windows 98 and 95. Drive locking is no longer available as of Windows
+                    XP.
+                </td>
+            </tr>
+            <tr>
+                <td>264</td>
+                <td>Unlodctr</td>
+                <td>The unlodctr command removes Explain text and Performance counter names for a service or device
+                    driver
+                    from the Windows Registry. The unlodctr command is available in Windows 10, Windows 8, Windows 7,
+                    Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>265</td>
+                <td>Vaultcmd</td>
+                <td>The vaultcmd command is used to create, remove, and show stored credentials. The vaultcmd command is
+                    available in Windows 10, Windows 8, and Windows 7.</td>
+            </tr>
+            <tr>
+                <td>266</td>
+                <td>Ver</td>
+                <td>The ver command is used to display the current Windows or MS-DOS version number. The ver command is
+                    available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>267</td>
+                <td>Verify</td>
+                <td>The verify command is used to enable or disable the ability of Command Prompt, or MS-DOS, to verify
+                    that
+                    files are written correctly to a disk. The verify command is available in all versions of Windows,
+                    as
+                    well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>268</td>
+                <td>Vol</td>
+                <td>The vol command shows the volume label and serial number of a specified disk, assuming this
+                    information
+                    exists. The vol command is available in all versions of Windows, as well as in MS-DOS.</td>
+            </tr>
+            <tr>
+                <td>269</td>
+                <td>Vsafe</td>
+                <td>The vsafe command is used to start VSafe, a basic virus protection system for MS-DOS. The vsafe
+                    command
+                    is only available in MS-DOS. VSafe was designed for MS-DOS and Windows 3.x only. Microsoft provides
+                    an
+                    optional virus protection suite called Microsoft Security Essentials for Windows XP and later
+                    operating
+                    systems, and third-party antivirus tools are available for all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>270</td>
+                <td>Vssadmin</td>
+                <td>The vssadmin command starts the Volume Shadow Copy Service administrative command line tool which
+                    displays current volume shadow copy backups and all installed shadow copy writers and providers. The
+                    vssadmin command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.
+                </td>
+            </tr>
+            <tr>
+                <td>271</td>
+                <td>W32tm</td>
+                <td>The w32tm command is used to diagnose issues with Windows Time. The w32tm command is available in
+                    Windows 10, Windows 8, Windows 7, Windows Vista, and Windows XP.</td>
+            </tr>
+            <tr>
+                <td>272</td>
+                <td>Waitfor</td>
+                <td>The waitfor command is used to send or wait for a signal on a system. The waitfor command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>273</td>
+                <td>Wbadmin</td>
+                <td>The wbadmin command is used to start and stop backup jobs, display details about a previous backup,
+                    list
+                    the items within a backup, and report on the status of a currently running backup. The wbadmin
+                    command
+                    is available in Windows 10, Windows 8, Windows 7, and Windows Vista. The wbadmin command replaced
+                    the
+                    ntbackup command beginning in Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>274</td>
+                <td>Wecutil</td>
+                <td>The wecutil command is used to manage subscriptions to events that are forwarded from WS-Management
+                    supported computers. The wecutil command is available in Windows 10, Windows 8, Windows 7, and
+                    Windows
+                    Vista.</td>
+            </tr>
+            <tr>
+                <td>275</td>
+                <td>Wevtutil</td>
+                <td>The wevtutil command starts the Windows Events Command Line Utility which is used to manage event
+                    logs
+                    and publishers. The wevtutil command is available in Windows 10, Windows 8, Windows 7, and Windows
+                    Vista.</td>
+            </tr>
+            <tr>
+                <td>276</td>
+                <td>Where</td>
+                <td>The where command is used to search for files that match a specified pattern. The where command is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>277</td>
+                <td>Whoami</td>
+                <td>The whoami command is used to retrieve user name and group information on a network. The whoami
+                    command
+                    is available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>278</td>
+                <td>Winmgmt</td>
+                <td>The winmgmt command starts the command line version of WMI, a scripting tool in Windows. The winmgmt
+                    command is available in all versions of Windows.</td>
+            </tr>
+            <tr>
+                <td>279</td>
+                <td>Winrm</td>
+                <td>The winrm command is used to start the command line version of Windows Remote Management, used to
+                    manage
+                    secure communications with local and remote computers using web services. The winrm command is
+                    available
+                    in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>280</td>
+                <td>Winrs</td>
+                <td>The winrs command is used to open a secure command window with a remote host. The winrs command is
+                    available in Windows 10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>281</td>
+                <td>Winsat</td>
+                <td>The winsat command starts the Windows System Assessment Tool, a program that assesses various
+                    features,
+                    attributes, and capabilities of a computer running Windows. The winsat command is available in
+                    Windows
+                    10, Windows 8, Windows 7, and Windows Vista.</td>
+            </tr>
+            <tr>
+                <td>282</td>
+                <td>Wmic</td>
+                <td>The wmic command starts the Windows Management Instrumentation Command line (WMIC), a scripting
+                    interface that simplifies the use of Windows Management Instrumentation (WMI) and systems managed
+                    via
+                    WMI. The wmic command is available in Windows 10, Windows 8, Windows 7, Windows Vista, and Windows
+                    XP.
+                </td>
+            </tr>
+            <tr>
+                <td>283</td>
+                <td>Wsmanhttpconfig</td>
+                <td>The wsmanhttpconfig command is used to manage aspects of the Windows Remote Management (WinRM)
+                    service.
+                    The wsmanhttpconfig command is available in Windows 10, Windows 8, Windows 7, and Windows Vista.
+                </td>
+            </tr>
+            <tr>
+                <td>284</td>
+                <td>Xcopy</td>
+                <td>The xcopy command can copy one or more files or directory trees from one location to another. The
+                    xcopy
+                    command is generally considered a more "powerful" version of the copy command through the robocopy
+                    command trumps even xcopy. The xcopy command is available in all versions of Windows, as well as in
+                    MS-DOS. A command by the name of xcopy32 existed in Windows 95 and Windows 98. To avoid a long and
+                    confusing explanation here, just know that no matter if you executed the xcopy command or the
+                    xcopy32
+                    command, you were always executing the most updated version of the command.</td>
+            </tr>
+            <tr>
+                <td>285</td>
+                <td>Xwizard</td>
+                <td>The xwizard command, short for Extensible Wizard, is used to register data in Windows, often from a
+                    preconfigured XML file. The xwizard command is available in Windows 10, Windows 8, and Windows 7.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <span> Made by <a href="https://twitter.com/ALWALEEDALWABEL">Alwaleed Alwabel</a> - v_1.1</span>
+    </footer>
+</body>
+
+</html>

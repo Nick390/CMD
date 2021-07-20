@@ -13,6 +13,10 @@ a {
     color: #6c7ae0;
 }
 
+h1{
+    text-align: center;
+    margin: 10px 0px;
+}
 tr,
 th,
 td {
